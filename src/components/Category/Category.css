@@ -1,0 +1,32 @@
+.Category a{
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+}
+.Category ul {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.Category ul li{
+    list-style: none;
+    display: flex;
+    margin:.1em;
+    border-radius: 8%;
+    padding:.3em;
+    justify-content:center;
+    background: linear-gradient(.5turn, white,transparent, #550b55);
+}
+.Category a:hover{
+    color: rgb(177, 137, 88);
+}
+.Category li:nth-child(2n+1){
+background-color: rgb(99, 48, 202);
+}
+.Category li:nth-child(2n){
+    background-color: red
+}
+.Category li:nth-child(4n+4){
+    background-color: orangered
+}

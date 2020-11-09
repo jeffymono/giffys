@@ -1,0 +1,10 @@
+.ListOfGifs{
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:5px;
+    align-items: center;
+    grid-auto-flow:row dense;
+    grid-auto-rows: 200px;
+}
